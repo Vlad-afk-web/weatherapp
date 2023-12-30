@@ -3,7 +3,7 @@ class WeatherApi
   BASE_URI = 'http://api.weatherapi.com/v1'
 
  def initialize() 
-    @api_key = '48e3eac028f44c709f7105428232410'
+    @api_key = ''
   end
 
   def weather_by_city(name)
